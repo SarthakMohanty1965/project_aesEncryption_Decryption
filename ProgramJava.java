@@ -7,8 +7,8 @@ import java.util.Scanner;
 public class ProgramJava {
 
     private static final String ALGORITHM = "AES/CFB/NoPadding";
-    private static final byte[] IV = "1234567890123456".getBytes(); // Fixed IV for simplicity
-    private static final byte[] KEY = "0123456789abcdef".getBytes(); // Fixed 16-byte key
+    private static final byte[] IV = "1234567890123456".getBytes(); // Fixed IV 
+    private static final byte[] KEY = "0123456789abcdef".getBytes(); 
 
     // Encrypt text
     public static String encrypt(String text) throws Exception {
